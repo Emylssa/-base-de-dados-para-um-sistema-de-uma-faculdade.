@@ -1,7 +1,5 @@
 #sistema_de_uma_faculdade.
 
-#Criação do banco de dados
-    CREATE DATABASE IF NOT EXISTS nome_do_banco_de_dados;
 
  # Seleciona o banco de dados
  USE banco_portifolio;
