@@ -6,7 +6,7 @@
  # Seleciona o banco de dados
  USE banco_portifolio;
 
-   #Criação da tabela Alunos
+   #Criacao da tabela Alunos
     CREATE TABLE Alunos (
         id_aluno INT AUTO_INCREMENT PRIMARY KEY,
         nome VARCHAR(255) NOT NULL,
@@ -15,14 +15,14 @@
         email VARCHAR(255) NOT NULL UNIQUE
     );
 
-  #Criação da tabela Cursos
+  #Criacao da tabela Cursos
     CREATE TABLE Cursos (
         id_curso INT AUTO_INCREMENT PRIMARY KEY,
         nome_curso VARCHAR(255) NOT NULL,
         carga_horaria INT NOT NULL
     );
 
-   #Criação da tabela Matérias
+   #Criacao da tabela Matérias
     CREATE TABLE Materias (
         id_materia INT AUTO_INCREMENT PRIMARY KEY,
         nome_materia VARCHAR(255) NOT NULL,
@@ -33,7 +33,7 @@
     );
 
 
-   #Criação da tabela Professores
+   #Criacao da tabela Professores
     CREATE TABLE Professores (
         id_professor INT AUTO_INCREMENT PRIMARY KEY,
         nome_professor VARCHAR(255) NOT NULL,
@@ -41,7 +41,7 @@
         email VARCHAR(255) NOT NULL UNIQUE
     );
 
-  #Criação da tabela Notas
+  #Criacao da tabela Notas
     CREATE TABLE Notas (
         id_nota INT AUTO_INCREMENT PRIMARY KEY,
         id_aluno INT,
