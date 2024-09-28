@@ -1,5 +1,8 @@
 #sistema_de_uma_faculdade.
 
+CREATE DATABASE banco_portifolio;
+
+USE banco_portifolio;
 
  # Seleciona o banco de dados
  USE banco_portifolio;
